@@ -3,6 +3,7 @@
 # 最终版本：Tri-Func-Calculator-CQU
 # 修订时间：2022年4月1日
 # 小组成员：林康志、杜建建、钟豪、朱思宁、戚俊
+# 程序说明: 该文件包括按钮类，每个按钮都继承自MyButton。
 ##########
 
 from abc import ABC

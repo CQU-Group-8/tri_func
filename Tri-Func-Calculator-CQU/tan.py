@@ -15,7 +15,7 @@ def tan(x):
     :param x: 输入参数为角度值
     :return: x的正切值
     """
-    if x % 90 == 0 and (x / 90) % 2 != 0:
+    if cos(x) != 0:
         result = sin(x)/cos(x)
         return round(result, 10)  # 计算结果保留十位小数
     else:
